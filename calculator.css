@@ -1,0 +1,21 @@
+html {
+  text-align: center;
+  font-family: Orbitron;
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-position: 0%;
+}
+form {
+  background-image: url(pngtree-calculator-compass-ruler-school-supplies-border-element-png-image_2401710.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  margin-top: 50px;
+  font-family: Orbitron;
+  color: aqua;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}

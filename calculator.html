@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calcule</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Orbitron" />
+</head>
+
+<body>
+    <!--Form-->
+
+    <!--form-->
+    <form name="form1" method="post" action="">
+        <!--Title-->
+        <h1>Calculadora</h1>
+        <!--value 1-->
+        Valor 1<br />
+        <input type="number" name="n1" value="" size=10><br /><br />
+        <!--value 2-->
+        Valor 2<br />
+        <input type="number" name="n2" value="" size=10><br /><br />
+        <!--Operation-->
+        Selecione a operação:<br /><br />
+        <label id="conta"><input type="radio" name="op" value="ad" checked>Adição</label>
+        <label id="conta"><input type="radio" name="op" value="su">Subtração</label><br /><br />
+        <label id="conta"><input type="radio" name="op" value="mult">Multiplicação</label>
+        <label id="conta"><input type="radio" name="op" value="divi">Divisão</label><br /><br />
+        <label id="conta"><input type="radio" name="op" value="pot">Potênciação</label>
+        <label id="conta"><input type="radio" name="op" value="rar">Raiz Quadrada</label><br /><br />
+        <!--Result-->
+        Resultado:<br />
+        <input type="number" value="" name="result" size=10><br /><br />
+        <!--Buttons-->
+        <input type="button" name="calcula" value="Calcular" onClick=calcular() />
+        <input type="reset" name="limpar" value="Limpar" />
+    </form>
+</body>
+
+</html>
